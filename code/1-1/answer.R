@@ -5,7 +5,7 @@ prime <- function(n){
 		return (2)
 	}
 	
-	sq <- round(sqrt(n))
+	sq <- as.integer(sqrt(n))
 	
 	if (sq <= 2){
 		sq = 2
